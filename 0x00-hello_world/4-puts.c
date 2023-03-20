@@ -1,10 +1,9 @@
 #include<stdio.h>
-/*main enrty*/
-int main(void)
-	/**
-	 *main - entry poin
-	 *return: always 0 (success)
-	 */
+ /**
+ *main - entry poin
+ *return: always 0 (success)
+ **/
+int main(void) /*main is initial*/
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
