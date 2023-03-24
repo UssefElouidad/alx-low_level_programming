@@ -2,9 +2,8 @@
 /**
  * mul - is a function that multiplies two integers.
  * _putchar - prints a value.
- * @a: value n 1.
- * @b: value n 2.
- * @c: the value of multiplication.
+ * @a: is value 1.
+ * @b: is value 2.
  * Return: Always 0.
  */
 int mul(int a, int b)
