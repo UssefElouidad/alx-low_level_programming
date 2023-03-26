@@ -1,7 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - test if n is positive or negative */
+/**
+ *  main - entry point.
+ *
+ *  desciption: test if n is positive or negative.
+ *  
+ *  Return: Always 0.
+ */
 int main(void)
 {
 	int n;
