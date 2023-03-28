@@ -1,6 +1,6 @@
 #include "main.h"
  /**
-	  * rev_string - fonction that verses the  string.
+  * rev_string - fonction that verses the  string.
   * @s: the string we'll modifie it.
   * Return: void.
   *
