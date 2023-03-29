@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
  * _strcat - fonction that appends src string to the dest string.
  * @dest: string destination.
  * @src: source string.
- * Return dest
+ * Return: Always 0
  */
 char *_strcat(char *dest, char *src)
 {
