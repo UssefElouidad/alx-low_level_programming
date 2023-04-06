@@ -17,7 +17,8 @@ int num(int n, int m)
 }
 
 /**
- * sqrt_recursion - a function that returns the natural square root of a number
+ * _sqrt_recursion - a function that returns
+ * the natural square root of a number
  * @n: the value to calculate sqrt.
  * Return: natural saquare n.
  */
