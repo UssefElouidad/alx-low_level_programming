@@ -18,19 +18,18 @@ int is_prime_number(int n)
  * @i: devide by.
  * Return: 1 or 0.
  */
-	
+
 int check_if_prime(int n, int i)
 {
 	if (n <= 1)
 	{
 		return (0);
 	}
-		if (i = 2, n % i != 0)
+	i = 2;
+		if (n % i != 0)
 		{
 			return (1);
 		}
-		
 		return (0);
-
-		return ( check_if_prime(n, i + 1));
+		return (check_if_prime(n, i + 1));
 }
