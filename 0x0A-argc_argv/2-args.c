@@ -3,7 +3,7 @@
  * main - entry point.
  * @argc: argument count.
  * @argv: array of argument.
- * Return : Always 0.
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
