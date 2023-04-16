@@ -5,14 +5,11 @@
  * main - entry point.
  * @argc: argument count.
  * @argv: argument vit.
- * @i: int number 1.
- * @j: int number 2.
  * mul: mul operation result.
- * Retur: Always 0.
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
-	int i = 0, j = 0;
 	int mul;
 
 	if (argc == 3)
@@ -22,7 +19,7 @@ int main(int argc, char *argv[])
 	mul = i * j;
 		printf("%d\n", mul);
 	}
-	else 
+	else
 	{
 		printf("error\n");
 		return (1);
