@@ -1,58 +1,31 @@
 #include<stdio.h>
-/**
- *
- *
- */
-int _atoi(char *s)
-{
-	int i, d, n, len, f, digit;
-
-	i = 0;
-	d = 0;
-	n = 0;
-	len = 0;
-	f = 0;
-	digit = 0;
-
-	while (s[len] != '\0')
-		len++;
-
-	while (i < len && f == 0)
-	{
-		if (s[i] == '-')
-			++d;
-		if (s[i] >= '0' && s[i] <= '9')
-		{
-			digit = s[i] - '0';
-			if (d % 2)
-				digit = -digit;
-			n = n * 10 + digit;
-			f = 1;
-			if (s[i + 1] < '0' || s[i + 1] > '9')
-				break;
-			f = 0;
-		}
-		i++;
-	}
-	if (f == 0)
-		return (0);
-	return (n);
-}
+#include<stdlib.h>
+#include "main.h"
 /**
  * main - entry point.
  * @argc: argument count.
  * @argv: argument vit.
- * Return: 1.
+ * @i: int number 1.
+ * @j: int number 2.
+ * mul: mul operation result.
+ * Retur: Always 0.
  */
 int main(int argc, char *argv[])
 {
+	int i = 0, j = 0;
 	int mul;
 
-	if (argc == 2)
+	if (argc == 3)
 	{
-	mul = (*argv[argc] * *argv[argc + 1]);
+		i = atoi(argv[1]);
+		j = atoi(argv[2]);
+	mul = i * j;
 		printf("%d\n", mul);
 	}
+	else 
+	{
 		printf("error\n");
 		return (1);
+	}
+	return (0);
 }
