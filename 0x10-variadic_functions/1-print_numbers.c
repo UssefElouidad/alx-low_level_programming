@@ -3,9 +3,9 @@
 #include<stdio.h>
 #include<stddef.h>
 /**
- * print_number - a function that prints numbers
+ * print_numbers - a function that prints numbers
  * @separator: a string to be printed between numbers.
- * n: the number of integers passed to the function.
+ * @n: the number of integers passed to the function.
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -14,7 +14,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 
 	va_start(num, n);
-	for(i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%d", va_arg(num, int));
 		if (i != (n - 1) && separator != NULL)
