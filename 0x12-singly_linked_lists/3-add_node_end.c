@@ -3,22 +3,24 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * add-node-end - a funcyion that adds a new node at the end
+ * add_node_end - a funcyion that adds a new node at the end
  * @head: a poiter to the head node.
  * @str: string
  * Return: the address of the new element.
  */
-list_t *add_node_end(list_t **head, const char *str) {
+list_t *add_node_end(list_t **head, const char *str)
+{
 	list_t *new_node = malloc(sizeof(list_t));
+
 	if (new_node == NULL)
 	{
-	return NULL;
+	return (NULL);
 	}
 	new_node->str = strdup(str);
 	if (new_node->str == NULL)
 	{
 	free(new_node);
-	return NULL;
+	return (NULL);
 	}
 	new_node->len = strlen(str);
 	new_node->next = NULL;
@@ -29,7 +31,8 @@ list_t *add_node_end(list_t **head, const char *str) {
 	else
 	{
 	list_t *current_node = *head;
-	while (current_node->next != NULL) 
+
+	while (current_node->next != NULL)
 	{
 	current_node = current_node->next;
 	}
