@@ -3,12 +3,14 @@
 #include<stdio.h>
 /**
  * add_nodeint_end - a function that adds a new node at the end
- * @head:
- * @n:
+ * @head: the pointer to header
+ * @n: an integer
+ * Return: always
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new_node = malloc(sizeof(listint_t));
+
 	if (new_node == NULL)
 	{
 	return (NULL);
@@ -22,6 +24,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	else
 	{
 	listint_t *last_node = *head;
+
 	while (last_node->next != NULL)
 	{
 	last_node = last_node->next;
