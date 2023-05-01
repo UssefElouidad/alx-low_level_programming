@@ -1,7 +1,7 @@
 #include"lists.h"
 #include<stdio.h>
 /**
- * listint_len - a function that returns 
+ * listint_len - a function that returns
  * the number of elements in a linked list
  * @h: a pointer to header
  * Return: number of elements
