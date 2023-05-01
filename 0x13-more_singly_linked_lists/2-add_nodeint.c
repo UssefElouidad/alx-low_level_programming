@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * add-nodeint - a function that adds a new node to the beginnin
+ * add_nodeint - a function that adds a new node to the beginnin
  * @head: a pointer to head
  * @n: number
  * Return: 0
