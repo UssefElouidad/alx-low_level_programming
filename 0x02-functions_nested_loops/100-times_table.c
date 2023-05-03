@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * print_times-table - prints the times table of inputs
+ * print_times_table - prints the times table of inputs
  * @n: the value of the times table
  */
 void print_times_table(int n)
@@ -36,4 +36,4 @@ void print_times_table(int n)
 		}
 	}
 }
-	
+
