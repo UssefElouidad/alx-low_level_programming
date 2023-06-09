@@ -20,11 +20,11 @@ int sqrt_define(int n, int i)
 }
 
 /**
- * _sqrt_recursion - a fuction that returns the natural square root of a number.
+ * _sqrt_recursion - a fuction that returns the natural squar root of a number.
  * @n : the number to calculate score for .
- * Return : the natural square root or -1 if dosent exist.
+ * Return: the natural square root or -1 if dosent exist.
  */
 int _sqrt_recursion(int n)
 {
-	return(sqrt_define(n, 1));
+	return (sqrt_define(n, 1));
 }
