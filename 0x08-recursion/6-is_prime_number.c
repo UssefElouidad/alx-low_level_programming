@@ -13,7 +13,7 @@ int prime_number(int n, int div)
 	if (div * div > n)
 		return (1);
 
-	if (n % div == 0 )
+	if (n % div == 0)
 		return (0);
 
 	return (prime_number(n, div + 1));
