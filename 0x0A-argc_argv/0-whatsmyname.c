@@ -1,7 +1,7 @@
 #include"main.h"
 #include <stdio.h>
 /**
- * main - function that prints the name of the file 
+ * main - function that prints the name of the file.
  * @argc: the aderss.
  * @argv: the content.
  * Return: Always 0.
