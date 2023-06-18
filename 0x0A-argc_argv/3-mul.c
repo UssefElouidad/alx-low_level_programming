@@ -45,8 +45,12 @@ int _atoi(char *s)
 	return (n);
 }
 /**
+ * main - program that multiplies two numbers.
+ * @argc: arguments count.
+ * @argv: arguments content
+ * Return: 0 success 1 if failed
  */
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
 	int  result, n1, n2;
 
