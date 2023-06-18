@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	return (0);
 	}
-	
+
 	coins += cents / 25;
 	cents %= 25;
 
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	coins += cents / 2;
 	cents %= 2;
 
-	coins += cents; 
+	coins += cents;
 
 	printf("%d\n", coins);
 
