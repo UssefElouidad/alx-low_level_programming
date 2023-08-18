@@ -1,7 +1,8 @@
 #include "lists.h"
 #include <stddef.h>
 /**
- * get_dnodeint_at_index - a function that returns the nth node of a dlictint_t list.
+ * get_dnodeint_at_index - a function that returns the nth node of
+ * a dlictint_t list.
  * @index: is the index of the node.
  * @head: pointer to the head node.
  * Return: the nth node or NULL if the nide doesn't exist.
