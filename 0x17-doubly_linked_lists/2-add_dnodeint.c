@@ -2,14 +2,15 @@
 #include <stddef.h>
 #include <stdlib.h>
 /**
- * dlistint_t - a function that adds anew node at the beginning of a list.
+ * add_dnodeint - a function that adds anew node at the beginning of a list.
  * @head: a pointer to head.
- * n: the knode to add.
+ * @n: the node to add.
  * Return: the @ of the new element or NULL.
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *N_node = (dlistint_t *)malloc(sizeof(dlistint_t));
+
 	if (N_node == NULL)
 	{
 		return (NULL);
