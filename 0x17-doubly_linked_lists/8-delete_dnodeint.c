@@ -5,7 +5,7 @@
 /**
  * delete_dnodeint_at_index - a function that deletes the node
  * at the index of a dlistint_t list.
- * @haad: the head node of the list.
+ * @head: the head node of the list.
  * @index: is the index of the mode that should be deleted.
  * Return: 1 if succeeded or -1 of failed.
  */
