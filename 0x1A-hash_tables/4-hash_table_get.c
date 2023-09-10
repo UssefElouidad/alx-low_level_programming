@@ -3,7 +3,8 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_get - a function that retrieves a value associated with a key in a hash table.
+ * hash_table_get - a function that retrieves a value
+ * associated with a key in a hash table.
  * @ht: The hash table to look up in.
  * @key: The key to look for.
  *
